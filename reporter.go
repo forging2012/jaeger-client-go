@@ -69,7 +69,7 @@ func NewLoggingReporter(logger Logger) Reporter {
 
 // Report implements Report() method of Reporter by logging the span to the logger.
 func (r *loggingReporter) Report(span *Span) {
-	r.logger.Infof("Reporting span %+v", span)
+	//r.logger.Infof("Reporting span %+v", span)
 }
 
 // Close implements Close() method of Reporter by doing nothing.
