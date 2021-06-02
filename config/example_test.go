@@ -21,9 +21,9 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-lib/metrics"
 
+	"github.com/forging2012/jaeger-client-go"
 	jaegercfg "github.com/forging2012/jaeger-client-go/config"
 	jaegerlog "github.com/forging2012/jaeger-client-go/log"
-	"github.com/uber/jaeger-client-go"
 )
 
 func ExampleFromEnv() {

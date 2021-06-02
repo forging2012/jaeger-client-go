@@ -28,9 +28,9 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"github.com/uber/jaeger-lib/metrics/metricstest"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/log"
 	"github.com/forging2012/jaeger-client-go/transport"
-	"github.com/uber/jaeger-client-go"
 )
 
 func TestNewSamplerConst(t *testing.T) {

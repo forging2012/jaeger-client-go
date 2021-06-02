@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/crossdock/common"
 	"github.com/forging2012/jaeger-client-go/crossdock/log"
 	"github.com/forging2012/jaeger-client-go/crossdock/thrift/tracetest"
-	"github.com/uber/jaeger-client-go"
 )
 
 func TestServerJSON(t *testing.T) {

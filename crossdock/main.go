@@ -20,12 +20,12 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/crossdock/client"
 	"github.com/forging2012/jaeger-client-go/crossdock/common"
 	"github.com/forging2012/jaeger-client-go/crossdock/log"
 	"github.com/forging2012/jaeger-client-go/crossdock/server"
 	jlog "github.com/forging2012/jaeger-client-go/log"
-	"github.com/uber/jaeger-client-go"
 )
 
 func main() {

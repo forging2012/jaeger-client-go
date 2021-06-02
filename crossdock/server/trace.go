@@ -21,10 +21,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/crossdock/common"
 	"github.com/forging2012/jaeger-client-go/crossdock/log"
 	"github.com/forging2012/jaeger-client-go/crossdock/thrift/tracetest"
-	"github.com/uber/jaeger-client-go"
 )
 
 func (s *Server) doStartTrace(req *tracetest.StartTraceRequest) (*tracetest.TraceResponse, error) {

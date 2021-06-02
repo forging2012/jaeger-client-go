@@ -6,7 +6,7 @@ Instrumentation library that implements an
 [OpenTracing Go](https://github.com/opentracing/opentracing-go) Tracer for Jaeger (https://jaegertracing.io).
 
 **IMPORTANT**: The library's import path is based on its original location under `github.com/uber`. Do not try to import it as `github.com/jaegertracing`, it will not compile. We might revisit this in the next major release.
-  * :white_check_mark: `import "github.com/uber/jaeger-client-go"`
+  * :white_check_mark: `import "github.com/forging2012/jaeger-client-go"`
   * :x: `import "github.com/jaegertracing/jaeger-client-go"`
 
 ## How to Contribute
@@ -21,7 +21,7 @@ For example, Jaeger backend imports this library like this:
 
 ```toml
 [[constraint]]
-  name = "github.com/uber/jaeger-client-go"
+  name = "github.com/forging2012/jaeger-client-go"
   version = "2.17"
 ```
 

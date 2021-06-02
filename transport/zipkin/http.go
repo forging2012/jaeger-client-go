@@ -35,9 +35,9 @@ import (
 
 	"github.com/forging2012/jaeger-client-go/thrift"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/log"
 	"github.com/forging2012/jaeger-client-go/thrift-gen/zipkincore"
-	"github.com/uber/jaeger-client-go"
 )
 
 // Default timeout for http request in seconds

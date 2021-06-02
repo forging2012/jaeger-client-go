@@ -24,9 +24,9 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/assert"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/config"
 	"github.com/forging2012/jaeger-client-go/log"
-	"github.com/uber/jaeger-client-go"
 )
 
 var (

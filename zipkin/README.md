@@ -10,7 +10,7 @@ for use with other Zipkin collectors.
 // ...
 import (
 	opentracing "github.com/opentracing/opentracing-go"
-	jaeger "github.com/uber/jaeger-client-go"
+	jaeger "github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/zipkin"
 )
 
@@ -47,7 +47,7 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/uber/jaeger-client-go"
+	"github.com/forging2012/jaeger-client-go"
 	jaegerClientConfig "github.com/forging2012/jaeger-client-go/config"
 	"github.com/forging2012/jaeger-client-go/zipkin"
 	"github.com/forging2012/jaeger-client-go/log"

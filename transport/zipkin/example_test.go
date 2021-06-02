@@ -17,10 +17,10 @@ package zipkin_test
 import (
 	"log"
 
+	"github.com/forging2012/jaeger-client-go"
 	jlog "github.com/forging2012/jaeger-client-go/log"
 	"github.com/forging2012/jaeger-client-go/transport/zipkin"
 	"github.com/opentracing/opentracing-go"
-	"github.com/uber/jaeger-client-go"
 )
 
 func ExampleNewHTTPTransport() {

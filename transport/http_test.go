@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/forging2012/jaeger-client-go"
 	j "github.com/forging2012/jaeger-client-go/thrift-gen/jaeger"
-	"github.com/uber/jaeger-client-go"
 )
 
 func TestHTTPTransport(t *testing.T) {

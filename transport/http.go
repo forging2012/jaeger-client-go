@@ -25,8 +25,8 @@ import (
 
 	"github.com/forging2012/jaeger-client-go/thrift"
 
+	"github.com/forging2012/jaeger-client-go"
 	j "github.com/forging2012/jaeger-client-go/thrift-gen/jaeger"
-	"github.com/uber/jaeger-client-go"
 )
 
 // Default timeout for http request in seconds

@@ -39,9 +39,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/forging2012/jaeger-client-go"
 	"github.com/forging2012/jaeger-client-go/log"
 	"github.com/forging2012/jaeger-client-go/thrift-gen/zipkincore"
-	"github.com/uber/jaeger-client-go"
 )
 
 const spanPath = "/api/v1/spans"
