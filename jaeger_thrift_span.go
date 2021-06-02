@@ -19,8 +19,8 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	j "github.com/uber/jaeger-client-go/thrift-gen/jaeger"
-	"github.com/uber/jaeger-client-go/utils"
+	j "github.com/forging2012/jaeger-client-go/thrift-gen/jaeger"
+	"github.com/forging2012/jaeger-client-go/utils"
 )
 
 // BuildJaegerThrift builds jaeger span based on internal span.

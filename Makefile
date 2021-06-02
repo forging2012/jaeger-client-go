@@ -113,7 +113,7 @@ thrift-compile: thrift-image
 	$(THRIFT) -o /data --gen go:$(THRIFT_GO_ARGS) --out /data/crossdock/thrift/ /data/idl/thrift/crossdock/tracetest.thrift
 	sed -i '' 's|"zipkincore"|"$(PROJECT_ROOT)/thrift-gen/zipkincore"|g' $(THRIFT_GEN_DIR)/agent/*.go
 	sed -i '' 's|"jaeger"|"$(PROJECT_ROOT)/thrift-gen/jaeger"|g' $(THRIFT_GEN_DIR)/agent/*.go
-	sed -i '' 's|"github.com/apache/thrift/lib/go/thrift"|"github.com/uber/jaeger-client-go/thrift"|g' \
+	sed -i '' 's|"github.com/apache/thrift/lib/go/thrift"|"github.com/forging2012/jaeger-client-go/thrift"|g' \
 		$(THRIFT_GEN_DIR)/*/*.go crossdock/thrift/tracetest/*.go
 	rm -rf thrift-gen/*/*-remote
 	rm -rf crossdock/thrift/*/*-remote

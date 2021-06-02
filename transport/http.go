@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/uber/jaeger-client-go/thrift"
+	"github.com/forging2012/jaeger-client-go/thrift"
 
+	j "github.com/forging2012/jaeger-client-go/thrift-gen/jaeger"
 	"github.com/uber/jaeger-client-go"
-	j "github.com/uber/jaeger-client-go/thrift-gen/jaeger"
 )
 
 // Default timeout for http request in seconds

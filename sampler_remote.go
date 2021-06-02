@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/uber/jaeger-client-go/log"
-	"github.com/uber/jaeger-client-go/thrift-gen/sampling"
+	"github.com/forging2012/jaeger-client-go/log"
+	"github.com/forging2012/jaeger-client-go/thrift-gen/sampling"
 )
 
 const (

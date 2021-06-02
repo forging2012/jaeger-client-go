@@ -112,7 +112,7 @@ constructor, for example:
 
 ```go
 import (
-    "github.com/uber/jaeger-client-go/config"
+    "github.com/forging2012/jaeger-client-go/config"
     "github.com/uber/jaeger-lib/metrics/prometheus"
 )
 

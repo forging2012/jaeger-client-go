@@ -24,11 +24,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/uber/jaeger-client-go/internal/reporterstats"
-	"github.com/uber/jaeger-client-go/testutils"
-	"github.com/uber/jaeger-client-go/thrift"
-	"github.com/uber/jaeger-client-go/thrift-gen/agent"
-	j "github.com/uber/jaeger-client-go/thrift-gen/jaeger"
+	"github.com/forging2012/jaeger-client-go/internal/reporterstats"
+	"github.com/forging2012/jaeger-client-go/testutils"
+	"github.com/forging2012/jaeger-client-go/thrift"
+	"github.com/forging2012/jaeger-client-go/thrift-gen/agent"
+	j "github.com/forging2012/jaeger-client-go/thrift-gen/jaeger"
 )
 
 var (

@@ -21,14 +21,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/forging2012/jaeger-client-go/utils"
 	"github.com/opentracing/opentracing-go"
-	"github.com/uber/jaeger-client-go/utils"
 
+	"github.com/forging2012/jaeger-client-go/internal/baggage/remote"
+	throttler "github.com/forging2012/jaeger-client-go/internal/throttler/remote"
+	"github.com/forging2012/jaeger-client-go/rpcmetrics"
+	"github.com/forging2012/jaeger-client-go/transport"
 	"github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/internal/baggage/remote"
-	throttler "github.com/uber/jaeger-client-go/internal/throttler/remote"
-	"github.com/uber/jaeger-client-go/rpcmetrics"
-	"github.com/uber/jaeger-client-go/transport"
 	"github.com/uber/jaeger-lib/metrics"
 )
 

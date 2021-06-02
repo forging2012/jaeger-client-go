@@ -11,7 +11,7 @@ for use with other Zipkin collectors.
 import (
 	opentracing "github.com/opentracing/opentracing-go"
 	jaeger "github.com/uber/jaeger-client-go"
-	"github.com/uber/jaeger-client-go/zipkin"
+	"github.com/forging2012/jaeger-client-go/zipkin"
 )
 
 func main() {
@@ -48,9 +48,9 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
-	jaegerClientConfig "github.com/uber/jaeger-client-go/config"
-	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/uber/jaeger-client-go/log"
+	jaegerClientConfig "github.com/forging2012/jaeger-client-go/config"
+	"github.com/forging2012/jaeger-client-go/zipkin"
+	"github.com/forging2012/jaeger-client-go/log"
 	"github.com/uber/jaeger-lib/metrics"
 )
 

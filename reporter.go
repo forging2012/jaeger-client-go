@@ -22,8 +22,8 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/uber/jaeger-client-go/internal/reporterstats"
-	"github.com/uber/jaeger-client-go/log"
+	"github.com/forging2012/jaeger-client-go/internal/reporterstats"
+	"github.com/forging2012/jaeger-client-go/log"
 )
 
 // Reporter is called by the tracer when a span is completed to report the span to the tracing collector.

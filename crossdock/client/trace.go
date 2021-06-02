@@ -21,10 +21,10 @@ import (
 
 	"github.com/crossdock/crossdock-go"
 
-	"github.com/uber/jaeger-client-go/crossdock/common"
-	"github.com/uber/jaeger-client-go/crossdock/log"
-	"github.com/uber/jaeger-client-go/crossdock/thrift/tracetest"
-	"github.com/uber/jaeger-client-go/utils"
+	"github.com/forging2012/jaeger-client-go/crossdock/common"
+	"github.com/forging2012/jaeger-client-go/crossdock/log"
+	"github.com/forging2012/jaeger-client-go/crossdock/thrift/tracetest"
+	"github.com/forging2012/jaeger-client-go/utils"
 )
 
 func (c *Client) trace(t crossdock.T) {
